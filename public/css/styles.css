@@ -1,0 +1,111 @@
+/*
+Colores Propuestos: 
+
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+*/
+
+
+/*||||||| GENERAL |||||||*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*||||||| BODY - HEADER |||||||*/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #EAC926;
+}
+
+.logoML {
+    width: 100%;
+}
+
+.barraBusqueda {
+    background-color: #ebebeb;
+}
+
+#botonBusquedaPrincipal {
+    background-color: #666;
+}
+.navegacion {
+    background-color: #EAC926;
+}
+
+/*||||||| BODY - MAIN |||||||*/
+main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: solid 20px #EAC926;
+}
+
+main section article {
+    margin-left: 20px;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+/*||||||| BODY - MAIN - SECTION1 |||||||*/
+#basadoEnTuUltimaVisita {
+    background-color: #ebebeb;
+    border-top: solid 1px #ebebeb;
+    border: 15px;
+}
+
+#basadoEnTuUltimaVisita h2 {
+    font-size: 24px;
+    text-align: Center;
+}
+
+/*||||||| BODY - MAIN - SECTION2 |||||||*/
+#seccionOfertas {
+    background-color: #ebebeb;
+    border-top: solid 1px #ebebeb;
+    border: 15px;
+}
+
+#seccionOfertas h2 {
+    font-size: 24px;
+    text-align: Center;
+}
+
+/*||||||| BODY - MAIN - SECTION - ARTICLE |||||||*/
+.precios {
+    font-size: 18px;
+    text-align: Center;
+    margin-bottom: 5px;
+}
+
+.descuentos {
+    font-size: 16px;
+    text-align: Center;
+    color: #20c200;
+    margin-top: 5px;
+}
+
+.descripciones {
+    font-size: 16px;
+    text-align: Center;
+}
+
+.imagen {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*||||||| BODY - FOOTER |||||||*/
+footer {
+    text-align: center;
+    background-color: #ebebeb;
+}
+
+/*||||||||||||||||||FIN||||||||||||||||||||||*/
