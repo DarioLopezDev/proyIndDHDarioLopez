@@ -13,6 +13,16 @@ app.get('/contacto', (req,res)=>{
     res.sendFile(path.join(__dirname, './views/contacto.html'))
 })
 
+/*||||||||||| PARA EVITAR EL ERROR 404 ||||||||||||||*/
+app.get('*', (req, res) => {
+    res.send(`
+    <div>
+        <h1>Pagina No Encontrada</h1>
+        <a href="/">Regresar al Home</a>    
+    </div>
+    `)
+})
+
 app.listen(port, ()=>{
     console.log(`El servidor esta funcionando en el puerto ${port} http://localhost:${port}`);
 })
