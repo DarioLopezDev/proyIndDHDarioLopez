@@ -17,6 +17,22 @@ Verde: #39b54a;
     padding: 0;
 }
 
+.iconos {
+    align-items: left;
+    position: relative;
+}
+
+.fa-truck {
+    font-size: 200%;
+    color: #20c200;
+    position: relative;
+    border: 1px solid #20c200;
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
 /*||||||| BODY - HEADER |||||||*/
 body {
     font-family: 'Roboto', sans-serif;
@@ -39,6 +55,20 @@ body {
     background-color: #EAC926;
 }
 
+.burgerMenu {
+    background-color: #03264C;
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 24px;
+    width: 10%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.burgerMenu i {
+    color: #ebebeb;
+}
 /*||||||| BODY - MAIN |||||||*/
 main {
     width: 90%;
@@ -108,4 +138,8 @@ footer {
     background-color: #ebebeb;
 }
 
+footer i {
+    color: #03264C;
+    font-size: 50px;
+}
 /*||||||||||||||||||FIN||||||||||||||||||||||*/
