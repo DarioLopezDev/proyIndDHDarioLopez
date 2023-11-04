@@ -23,7 +23,7 @@ Verde: #39b54a;
 }
 
 .fa-truck {
-    font-size: 200%;
+    font-size: 1.2em;
     color: #20c200;
     position: relative;
     border: 1px solid #20c200;
@@ -37,22 +37,53 @@ Verde: #39b54a;
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    background-color: #ebebeb;
+}
+
+header {
+    display: inline-block;
     background-color: #EAC926;
+    width: 100vw;
+    padding-bottom: 2em;
 }
 
 .logoML {
-    width: 100%;
+    width: 25%;
+    margin-left: 2em;
+}
+
+#busqueda{
+    width: 100vw;
+    display: start;
+    padding-top: 1em;
 }
 
 .barraBusqueda {
     background-color: #ebebeb;
+    margin-left:1em;
 }
 
 #botonBusquedaPrincipal {
-    background-color: #666;
+    cursor: pointer;
+}
+
+header p {
+    text-align: center;
+    padding-top: 1em;
 }
 .navegacion {
     background-color: #EAC926;
+    margin-left: 1em;
+    padding-top: 5em;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #03264C;
 }
 
 .burgerMenu {
@@ -64,6 +95,8 @@ body {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    display:none;
+    margin-bottom: 2em;
 }
 
 .burgerMenu i {
@@ -71,75 +104,92 @@ body {
 }
 /*||||||| BODY - MAIN |||||||*/
 main {
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    border-top: solid 20px #EAC926;
-}
-
-main section article {
-    margin-left: 20px;
-    margin-right: auto;
-    margin-bottom: 30px;
 }
 
 /*||||||| BODY - MAIN - SECTION1 |||||||*/
+.banner {
+    width: 100vw;
+}
+
 #basadoEnTuUltimaVisita {
     background-color: #ebebeb;
     border-top: solid 1px #ebebeb;
-    border: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #basadoEnTuUltimaVisita h2 {
     font-size: 24px;
-    text-align: Center;
+    color: #666;
 }
 
 /*||||||| BODY - MAIN - SECTION2 |||||||*/
 #seccionOfertas {
     background-color: #ebebeb;
     border-top: solid 1px #ebebeb;
-    border: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #seccionOfertas h2 {
     font-size: 24px;
-    text-align: Center;
+    color: #666;
 }
 
 /*||||||| BODY - MAIN - SECTION - ARTICLE |||||||*/
+
+.producto {
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.detallesArticulos{
+    background-color: white;
+    padding: 15px 15px 15px 15px;
+    margin-top: -2px;
+
+}
+
 .precios {
     font-size: 18px;
-    text-align: Center;
-    margin-bottom: 5px;
 }
 
 .descuentos {
     font-size: 16px;
-    text-align: Center;
     color: #20c200;
-    margin-top: 5px;
+    margin-bottom: 1em;
 }
 
 .descripciones {
     font-size: 16px;
-    text-align: Center;
 }
 
 .imagen {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 100%;
+    align-items: center;
 }
 
 /*||||||| BODY - FOOTER |||||||*/
 footer {
     text-align: center;
-    background-color: #ebebeb;
+    background-color: white;
 }
 
 footer i {
     color: #03264C;
-    font-size: 50px;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer section h4 {
+    color: #666;
+}
+
+footer section p {
+    color: #666;
 }
 /*||||||||||||||||||FIN||||||||||||||||||||||*/
