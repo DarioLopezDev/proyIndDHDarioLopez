@@ -17,22 +17,7 @@ Verde: #39b54a;
     padding: 0;
 }
 
-.iconos {
-    align-items: left;
-    position: relative;
-}
 
-.fa-truck {
-    font-size: 1.2em;
-    color: #20c200;
-    position: relative;
-    border: 1px solid #20c200;
-    border-radius: 25px;
-    width: 40px;
-    height: 40px;
-    padding-top: 5px;
-    padding-left: 5px;
-}
 
 /*||||||| BODY - HEADER |||||||*/
 body {
@@ -42,40 +27,59 @@ body {
 }
 
 header {
-    display: inline-block;
+    display:flex;
     background-color: #EAC926;
-    width: 100vw;
+    width: 100%;
+    padding-top: 2em;
     padding-bottom: 2em;
+    flex-direction: row;
+    flex-wrap: wrap;    
 }
 
 .logoML {
-    width: 25%;
-    margin-left: 2em;
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #busqueda{
-    width: 100vw;
-    display: start;
-    padding-top: 1em;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-
 .barraBusqueda {
     background-color: #ebebeb;
-    margin-left:1em;
+    height: 3em;
+    border-color: #EAC926;
+    border-style: none;
+    border-radius: 5px;
 }
 
 #botonBusquedaPrincipal {
     cursor: pointer;
+    height: 3em;
+    border-color: #EAC926;
+    border-style: none;
+    border-radius: 5%;
+    margin-left: -3px;
 }
 
+.mensajeFinanciacion{
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 100%;
+}
 header p {
+    flex-wrap: wrap;
     text-align: center;
     padding-top: 1em;
 }
+
 .navegacion {
     background-color: #EAC926;
     margin-left: 1em;
-    padding-top: 5em;
+    display: none;
 }
 
 header nav ul li{
@@ -88,6 +92,9 @@ header nav ul li a {
 }
 
 .burgerMenu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: #03264C;
     border-radius: 10%;
     cursor: pointer;
@@ -96,12 +103,14 @@ header nav ul li a {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    display:none;
-    margin-bottom: 2em;
 }
 
 .burgerMenu i {
     color: #ebebeb;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 /*||||||| BODY - MAIN |||||||*/
 main {
@@ -125,6 +134,9 @@ main {
 #basadoEnTuUltimaVisita h2 {
     font-size: 24px;
     color: #666;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 15px;
 }
 
 /*||||||| BODY - MAIN - SECTION2 |||||||*/
@@ -138,12 +150,13 @@ main {
 #seccionOfertas h2 {
     font-size: 24px;
     color: #666;
+    padding-left: 15px;
 }
 
 /*||||||| BODY - MAIN - SECTION - ARTICLE |||||||*/
 
 .producto {
-    margin-bottom: 10px;
+    padding-bottom: 10px;
     margin-left: 15px;
     margin-right: 15px;
 }
@@ -155,6 +168,10 @@ main {
 
 }
 
+.preciosYDescuentos{
+display: flex;
+}
+
 .precios {
     font-size: 18px;
 }
@@ -162,11 +179,13 @@ main {
 .descuentos {
     font-size: 16px;
     color: #20c200;
+    padding-left: 1em;
     margin-bottom: 1em;
 }
 
 .descripciones {
     font-size: 16px;
+    display:none;
 }
 
 .imagen {
@@ -174,6 +193,24 @@ main {
     align-items: center;
 }
 
+.iconos {
+    position: relative;
+}
+
+.fa-truck{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    color: #39b54a;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -30px;
+}
 /*||||||| BODY - FOOTER |||||||*/
 footer {
     text-align: center;
