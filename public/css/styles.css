@@ -17,8 +17,6 @@ Verde: #39b54a;
     padding: 0;
 }
 
-
-
 /*||||||| BODY - HEADER |||||||*/
 body {
     font-family: 'Roboto', sans-serif;
@@ -65,6 +63,10 @@ header {
     border-style: none;
     border-radius: 5%;
     margin-left: -3px;
+}
+
+#financiacion1 {
+    display: none;
 }
 
 .parteInferiorDelHeader{
@@ -118,7 +120,7 @@ main {
 
 /*||||||| BODY - MAIN - SECTION1 |||||||*/
 .banner {
-    width: 100vw;
+    width: 100%;
 }
 
 #basadoEnTuUltimaVisita {
@@ -226,5 +228,115 @@ footer section h4 {
 
 footer section p {
     color: #666;
+}
+
+
+/*||||||||||||||||||||||||||||*/
+/*||||||| MEDIA QUERYS |||||||*/
+/*||||||||||||||||||||||||||||*/
+
+@media (min-width: 361px) {
+/*||||||| BODY - HEADER |||||||*/
+    #parteSuperiorDelHeader {
+        padding-bottom: 2em;
+        align-items: center;
+    }
+    .logoML{
+        width: 40%;
+    }
+    #busqueda{
+        width: 25%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .barraBusqueda {
+        height: 2em;
+        border-color: #666;
+        border-style:solid;
+    }
+    
+    #botonBusquedaPrincipal {
+        height: 2em;
+        width: 2em;
+        font-style:oblique ;
+        margin-left: 10px;
+        border-color: #666;
+        border-style:solid;
+    }
+    header p {
+        padding-top: 2em;
+        text-align: start;
+        padding-bottom:2em;
+    
+    }
+    #financiacion1 {
+        display:flex;
+        
+    }
+    #financiacion2 {
+        display:none;
+    }
+    .burgerMenu {
+        display:none;
+    }
+    .burgerMenu i {
+        display:none;
+    }
+    .parteInferiorDelHeader {
+        display: inline;
+    }
+    .navegacion{
+        display: flex;
+        flex-direction: row;
+    }
+    .navegacion ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        width: 33%;
+    }
+/*|||||||BODY - MAIN - SECTION - ARTICLE |||||||*/
+
+main section {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 2em;
+    width: 100%;
+}
+main article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width: 42%;
+}
+
+    .descripciones{
+        display:inherit;
+    }
+}
+
+@media (min-width: 769px) {
+    main {
+        display:flex;
+        flex-direction: column;
+        font-size: 24px;
+    }
+    .banner {
+        align-items: start;
+    }
+    main h2 {
+        color: #666;
+    }
+    main section {
+        display:flex;
+        flex-direction: row;
+        padding-bottom: 2em;
+        width: 100%;
+    }
+    main article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 20%;
+    }
 }
 /*||||||||||||||||||FIN||||||||||||||||||||||*/
