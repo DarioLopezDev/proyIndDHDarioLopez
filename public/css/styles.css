@@ -32,10 +32,13 @@ header {
     width: 100%;
     padding-top: 2em;
     padding-bottom: 2em;
-    flex-direction: row;
-    flex-wrap: wrap;    
+    flex-direction: column;
 }
 
+#parteSuperiorDelHeader{
+    display: flex;
+    flex-direction: row;
+}
 .logoML {
     width: 50%;
     padding-left: 5%;
@@ -46,7 +49,6 @@ header {
     width: 50%;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 .barraBusqueda {
     background-color: #ebebeb;
@@ -65,15 +67,16 @@ header {
     margin-left: -3px;
 }
 
-.mensajeFinanciacion{
-    flex-direction: row;
-    flex-wrap: wrap;
-    min-width: 100%;
+.parteInferiorDelHeader{
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+
 }
 header p {
-    flex-wrap: wrap;
+    padding-top: 2em;
     text-align: center;
-    padding-top: 1em;
+    padding-bottom:2em;
 }
 
 .navegacion {
@@ -92,9 +95,6 @@ header nav ul li a {
 }
 
 .burgerMenu {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     background-color: #03264C;
     border-radius: 10%;
     cursor: pointer;
@@ -108,9 +108,6 @@ header nav ul li a {
 .burgerMenu i {
     color: #ebebeb;
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 /*||||||| BODY - MAIN |||||||*/
 main {
