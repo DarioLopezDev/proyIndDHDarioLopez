@@ -16,3 +16,47 @@ Verde: #39b54a;
     margin: 0;
     padding: 0;
 }
+
+/*||||||| MAIN - FORM |||||||*/
+main form {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    width: 90%;
+    padding: 20px;
+    background-color: #ebebeb;
+    border: #03264C solid 2px;
+    box-shadow: 0px 0px 8px #03264C;
+}
+
+/*||||||| MAIN - FORM - DIV |||||||*/
+main form div {
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+}
+
+main form div input {
+    width: 100%;
+    height: 2em;
+    border-radius: 4px;
+    border: none;
+}
+
+/*||||||| AREA DE ESTILOS DE LOS BOTONES |||||||*/
+main form div button {
+    font-size: 2vh;
+    width: 42%;
+    margin: auto;
+    padding: 1% 1% 1% 1%;
+    border-radius: 4px;
+    background-color: #1259c3 ;
+    color: #ebebeb;
+}
+
+.botonEnviar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
