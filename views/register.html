@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +16,7 @@
     <link href="/css/footer.css" rel="stylesheet">
     <title>Registro</title>
 </head>
+
 <body>
     <header>
         <div id="parteSuperiorDelHeader">
@@ -23,10 +25,12 @@
                 <input class="barraBusqueda" type="text" placeholder="  Buscar productos, marcas">
                 <button id="botonBusquedaPrincipal"><i class="fa-solid fa-magnifying-glass"></i></button>
             </div>
-            <p id="financiacion1"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+            <p id="financiacion1"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de
+                crédito</p>
         </div>
         <div id="parteInferiorDelHeader">
-            <p id="financiacion2"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+            <p id="financiacion2"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de
+                crédito</p>
             <nav class="navegacion">
                 <ul>
                     <li><a href="#">Ofertas</a></li>
@@ -46,24 +50,80 @@
             </div>
         </div>
     </header>
-    
-    <footer id= "pieDePagina">
+    <main>
+        <form action="#" method="post">
+            <div>
+                <label for="nombreCompleto">Nombre y Apellido:</label>
+                <input type="text" name="nombreCompleto" class="ingresaUsuario">
+            </div>
+            <div>
+                <label for="usuario">Nombre de usuario/a:</label>
+                <input type="text" name="usuario" class="ingresaUsuario">
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" class="ingresaUsuario">
+            </div>
+            <div>
+                <label for="nacimiento">Fecha de nacimiento:</label>
+                <input type="date" name="nacimiento" class="ingresaUsuario">
+            </div>
+            <div>
+                <label for="domicilio">Domicilio:</label>
+                <input type="text" name="domicilio" class="ingresaUsuario">
+            </div>
+            <div>
+                <label for="perfil">Perfil del usuario:</label><br>
+                <input type="radio" name="perfil" value="comprar"><label>Comprar</label><br>
+                <input type="radio" name="perfil" value="vender"><label>Vender</label>
+            </div>
+            <div>
+                <label for="intereses">Categorías de interés (puede elegir más de una):</label><br>
+                <input type="checkbox" id="cb1" value="opcion1">Electro<br>
+                <input type="checkbox" id="cb2" value="opcion2">Moda<br>
+                <input type="checkbox" id="cb3" value="opcion3">Hogar<br>
+                <input type="checkbox" id="cb4" value="opcion4">Juguetería<br>
+                <input type="checkbox" id="cb5" value="opcion5">Vida sana
+            </div>
+            <div>
+                <label for="foto">Foto de usuario:</label>
+                <input type="file" name="foto" class="foto">
+            </div>
+            <div>
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" name="contraseña" class="ingresaUsuario">
+            </div>
+            <div>
+                <label for="confirmar">Confirmar contraseña:</label>
+                <input type="password" name="confirmar" class="ingresaUsuario">
+            </div>
+            <div class="btnEnviarBorrar">
+                <button type="submit" class="botonEnviar">Enviar</button>
+                <button type="reset" class="botonBorrar">Borrar</button>
+            </div>
+        </form>
+    </main>
+    <footer id="pieDePagina">
         <section class="seccionTiposDePago">
             <i class="fa-solid fa-credit-card"></i>
             <h4><b>Pagá con tarjeta o en efectivo</b></h4>
-            <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+            <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es
+                seguro!</p>
         </section>
         <section class="seccionEnvios">
             <i class="fa-solid fa-gift"></i>
             <h4><b>Envío gratis desde $2,500</b></h4>
-            <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+            <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de
+                Mercado Puntos.</p>
         </section>
         <section class="seccionSeguridad">
             <i class="fa-solid fa-user-shield"></i>
             <h4><b>Seguridad, de principio a fin</b></h4>
-            <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+            <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre
+                protegid@.</p>
             <p class="copyright">© 1999-2020 MercadoLiebre S.R.L.</p>
         </section>
     </footer>
 </body>
+
 </html>
