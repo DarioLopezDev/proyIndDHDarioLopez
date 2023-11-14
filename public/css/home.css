@@ -17,100 +17,6 @@ Verde: #39b54a;
     padding: 0;
 }
 
-/*||||||| BODY - HEADER |||||||*/
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    background-color: #ebebeb;
-}
-
-header {
-    display:flex;
-    background-color: #EAC926;
-    width: 100%;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    flex-direction: column;
-}
-
-#parteSuperiorDelHeader{
-    display: flex;
-    flex-direction: row;
-}
-.logoML {
-    width: 50%;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-#busqueda{
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-}
-.barraBusqueda {
-    background-color: #ebebeb;
-    height: 3em;
-    border-color: #EAC926;
-    border-style: none;
-    border-radius: 5px;
-}
-
-#botonBusquedaPrincipal {
-    cursor: pointer;
-    height: 3em;
-    border-color: #EAC926;
-    border-style: none;
-    border-radius: 5%;
-    margin-left: -3px;
-}
-
-#financiacion1 {
-    display: none;
-}
-
-.parteInferiorDelHeader{
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-
-}
-header p {
-    padding-top: 2em;
-    text-align: center;
-    padding-bottom:2em;
-}
-
-.navegacion {
-    background-color: #EAC926;
-    margin-left: 1em;
-    display: none;
-}
-
-header nav ul li{
-    list-style: none;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: #03264C;
-}
-
-.burgerMenu {
-    background-color: #03264C;
-    border-radius: 10%;
-    cursor: pointer;
-    font-size: 24px;
-    width: 10%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.burgerMenu i {
-    color: #ebebeb;
-    width: 100%;
-}
 /*||||||| BODY - MAIN |||||||*/
 main {
     width: 100%;
@@ -210,93 +116,8 @@ display: flex;
     right: 20px;
     top: -30px;
 }
-/*||||||| BODY - FOOTER |||||||*/
-footer {
-    text-align: center;
-    background-color: white;
-}
-
-footer i {
-    color: #03264C;
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-
-footer section h4 {
-    color: #666;
-}
-
-footer section p {
-    color: #666;
-}
 
 
-/*||||||||||||||||||||||||||||*/
-/*||||||| MEDIA QUERYS |||||||*/
-/*||||||||||||||||||||||||||||*/
-
-@media (min-width: 361px) {
-/*||||||| BODY - HEADER |||||||*/
-    #parteSuperiorDelHeader {
-        padding-bottom: 2em;
-        align-items: center;
-    }
-    .logoML{
-        width: 40%;
-    }
-    #busqueda{
-        width: 25%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    .barraBusqueda {
-        height: 2em;
-        border-color: #666;
-        border-style:solid;
-    }
-    
-    #botonBusquedaPrincipal {
-        height: 2em;
-        width: 2em;
-        font-style:oblique ;
-        margin-left: 10px;
-        border-color: #666;
-        border-style:solid;
-    }
-    header p {
-        padding-top: 2em;
-        text-align: start;
-        padding-bottom:2em;
-    
-    }
-    #financiacion1 {
-        display:flex;
-        
-    }
-    #financiacion2 {
-        display:none;
-    }
-    .burgerMenu {
-        display:none;
-    }
-    .burgerMenu i {
-        display:none;
-    }
-    .parteInferiorDelHeader {
-        display: inline;
-    }
-    .navegacion{
-        display: flex;
-        flex-direction: row;
-    }
-    .navegacion ul {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-evenly;
-        width: 33%;
-    }
 /*|||||||BODY - MAIN - SECTION - ARTICLE |||||||*/
 
 main section {
@@ -314,7 +135,7 @@ main article {
     .descripciones{
         display:inherit;
     }
-}
+
 
 @media (min-width: 769px) {
     main {

@@ -1,0 +1,18 @@
+/*
+Colores Propuestos: 
+
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+*/
+
+
+/*||||||| GENERAL |||||||*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,39 @@
+/*
+Colores Propuestos: 
+
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+*/
+
+
+/*||||||| GENERAL |||||||*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*||||||| BODY - FOOTER |||||||*/
+footer {
+    text-align: center;
+    background-color: white;
+}
+
+footer i {
+    color: #03264C;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer section h4 {
+    color: #666;
+}
+
+footer section p {
+    color: #666;
+}
+
