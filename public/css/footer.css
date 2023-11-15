@@ -37,3 +37,39 @@ footer section p {
     color: #666;
 }
 
+@media (min-width: 769px) {
+    footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+    .copyright {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        margin-left: -190%;
+    }
+    
+    /* footer .fa-solid:hover {
+        transition-property: color, color ;
+        transition-duration: 1s;
+        color: #780deb;
+    } */
+
+    @keyframes anim{
+        0% {color: #03264C;}
+       25% {color: rgb(19, 234, 245);} 
+       50% {color: #780deb;} 
+       75% {color: rgb(19, 234, 245);} 
+      100% {color: #03264C;} 
+    }
+    footer .fa-solid:hover {
+      animation-name: anim;
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+    }
+}
+
+

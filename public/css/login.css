@@ -60,3 +60,9 @@ main form div button {
     justify-content: center;
 }
 
+button:hover {
+    transition-property: background-color, color  ;
+    transition-duration: 2s;
+    background-color: #0022AA;
+    color: #ebebeb;
+}
