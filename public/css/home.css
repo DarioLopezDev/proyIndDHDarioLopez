@@ -23,7 +23,9 @@ main {
     margin-left: auto;
     margin-right: auto;
 }
-
+h2 {
+    margin-left: 7%;
+}
 /*||||||| BODY - MAIN - SECTION1 |||||||*/
 .banner {
     width: 100%;
@@ -41,7 +43,7 @@ main {
     color: #666;
     padding-top: 1em;
     padding-bottom: 1em;
-    padding-left: 15px;
+    margin-left: 15px;
 }
 
 /*||||||| BODY - MAIN - SECTION2 |||||||*/
@@ -55,7 +57,7 @@ main {
 #seccionOfertas h2 {
     font-size: 24px;
     color: #666;
-    padding-left: 15px;
+    margin-left: 15px;
 }
 
 /*||||||| BODY - MAIN - SECTION - ARTICLE |||||||*/
@@ -68,8 +70,8 @@ main {
 
 .detallesArticulos{
     background-color: white;
-    padding: 15px 15px 15px 15px;
-    margin-top: -2px;
+    margin: 0px 0px 0px 0px;
+    margin-top: -3px;
 
 }
 
@@ -84,7 +86,7 @@ display: flex;
 .descuentos {
     font-size: 16px;
     color: #20c200;
-    padding-left: 1em;
+    margin-left: 1em;
     margin-bottom: 1em;
 }
 
@@ -129,7 +131,7 @@ main section {
 }
 main article {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    width: 42%;
+    width: 90%;
 }
 
     .descripciones{
